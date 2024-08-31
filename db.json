@@ -1,0 +1,180 @@
+{
+  "productionLines": [
+    {
+      "name": "Brewed Coffee",
+      "id": 1,
+      "capacity": 2500,
+      "hasSales": false,
+      "product_logoURL": "https://www.nescafe.com/mena/sites/default/files/2023-08/Coffee%20Types%20Banner%20Desktop.jpg"
+    },
+    {
+      "name": "Iced Tea",
+      "id": 2,
+      "capacity": 5000,
+      "hasSales": false,
+      "product_logoURL": "https://images.ctfassets.net/e8bhhtr91vp3/5ij7mZQj21dZm2Sqf7z1v8/6e33c4f1ce76172d33c60e225a5f413b/worldtea_howto_icedtea_img.webp?w=1600&q=60"
+    },
+    {
+      "name": "Souped Blueberry",
+      "id": 3,
+      "capacity": 1500,
+      "hasSales": false,
+      "product_logoURL": "https://lemontreedwelling.com/wp-content/uploads/2016/07/Blueberry-Soup-5b.jpg"
+    }
+  ],
+  "products": [
+    {
+      "name": "Cappuccino",
+      "productionLineId": 1,
+      "description": "Ain't this something!",
+      "id": 1
+    },
+    {
+      "name": "Americano",
+      "productionLineId": 1,
+      "description": "That is mine, begone!",
+      "id": 2
+    },
+    {
+      "name": "Espresso",
+      "productionLineId": 1,
+      "description": "Impressive taste, I can tell you that.",
+      "id": 3
+    },
+    {
+      "name": "Double Espresso",
+      "productionLineId": 1,
+      "description": "On the count of three..",
+      "id": 4
+    },
+    {
+      "name": "Mango",
+      "productionLineId": 2,
+      "description": "Bring a friend, takes two to get to the bottom of it!",
+      "id": 5
+    },
+    {
+      "name": "Peach",
+      "productionLineId": 2,
+      "description": "Didn't really catch me as being in the mood for something sweet.",
+      "id": 6
+    },
+    {
+      "name": "Mint",
+      "productionLineId": 2,
+      "description": "Oh, you got yours already, I've been waiting mine for months!",
+      "id": 7
+    },
+    {
+      "name": "Pineapple",
+      "productionLineId": 2,
+      "description": "Doesn't taste that bad. Doesn't taste that bad!",
+      "id": 8
+    },
+    {
+      "name": "Salty Liquorice",
+      "productionLineId": 3,
+      "description": "Just finn-ish it already!",
+      "id": 9
+    },
+    {
+      "name": "White Chocolate",
+      "productionLineId": 3,
+      "description": "I believe this is yours.",
+      "id": 10
+    },
+    {
+      "name": "Whip Cream",
+      "productionLineId": 3,
+      "description": "You can leave it to me.",
+      "id": 11
+    },
+    {
+      "name": "Asparagus with lemon",
+      "productionLineId": 3,
+      "description": "Must've been a mistake. Order in?",
+      "id": 12
+    }
+  ],
+  "customers": [
+    {
+      "name": "Buy you a coffee",
+      "customer_logoURL": "/images/coffee.png",
+      "contact": "The man",
+      "address": "The Star Avenue 1",
+      "selected_products": [],
+      "delivered": [],
+      "id": 1
+    },
+    {
+      "name": "Decompressed Coffee house",
+      "customer_logoURL": "/images/house.png",
+      "contact": "It's too Latte to answer",
+      "address": "The House that Decaf built",
+      "selected_products": [],
+      "delivered": [],
+      "id": 2
+    },
+    {
+      "name": "Cultured Couture Juice",
+      "customer_logoURL": "/images/juice.png",
+      "contact": "Keeps changing",
+      "address": "Juicy World",
+      "selected_products": [],
+      "delivered": [],
+      "id": 3
+    },
+    {
+      "name": "Soup is all you need",
+      "customer_logoURL": "/images/soup.png",
+      "contact": "Stilness",
+      "address": "Where your heart is",
+      "selected_products": [],
+      "delivered": [],
+      "id": 4
+    },
+    {
+      "name": "Haven't thought of it yet",
+      "customer_logoURL": "/images/havent.png",
+      "contact": "Yeti",
+      "address": "The Himalayas",
+      "selected_products": [],
+      "delivered": [],
+      "id": 5
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "name": "Coffee sales",
+      "listedItems": []
+    },
+    {
+      "id": 2,
+      "name": "Iced Tea sales",
+      "listedItems": []
+    },
+    {
+      "id": 3,
+      "name": "Blueberry soup sales",
+      "listedItems": []
+    }
+  ],
+  "productions": [
+    {
+      "id": 1,
+      "name": "Coffee production",
+      "inProductionItems": []
+    },
+    {
+      "id": 2,
+      "name": "Iced Tea production",
+      "inProductionItems": []
+    },
+    {
+      "id": 3,
+      "name": "Blueberry soup production",
+      "inProductionItems": []
+    }
+  ]
+}
